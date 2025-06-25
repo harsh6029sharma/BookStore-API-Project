@@ -87,7 +87,7 @@ const updateBook = async (req, res) => {
             success: true,
             message: 'Book updated successfully',
             data: updatedBook
-        })+
+        })
 
 
     } catch (e) {
